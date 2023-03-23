@@ -68,13 +68,16 @@ command.
 - AWS Lambda function
 
 
+## Context about Amazon DynamoDB streams
+- A DynamoDB stream is an ordered flow of information about changes to items in a DynamoDB table. When you enable a stream on a table, DynamoDB captures information about every modification to data items in the table.
+- DynamoDB Streams helps ensure the following:
+  - Each stream record appears exactly once in the stream. 
+  - For each item that is modified in a DynamoDB table, the stream records appear in the same sequence as the actual modifications to the item.
+- Amazon DynamoDB is integrated with AWS Lambda so that you can create triggers—pieces of code that automatically respond to events in DynamoDB Streams.
 
-## Running the application with a specific example
-
-```
-INSTRUCTIONS GO HERE
-```
-
+## Running this specific application with a specific example
+- In this example the lambda that gets triggered when items are "added to dynamodb". 
+<MORE INSTRUCTIONS GO HERE>
 
 ## Useful commands
 
