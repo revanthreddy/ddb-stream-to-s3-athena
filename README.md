@@ -10,6 +10,9 @@ For this walkthrough, you should have the following prerequisites set up on your
 - Python > 3.10.6
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 
+## Architecture
+
+![Architecture diagram](./images/architecture.png)
 
 ## Deployment Instructions
 
@@ -64,7 +67,7 @@ command.
 - AWS Glue resources 
 - AWS Lambda function
 
-![image](./images/architecture.png)
+
 
 ## Running the application with a specific example
 
