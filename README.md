@@ -1,5 +1,6 @@
 
-# Stream data from Amazon DynamoDB to S3 to run data analytics using AWS Glue and Amazon Athena
+# Run data analytics on data from Amazon DynamoDB using AWS Glue and Amazon Athena
+
 
 
 ## Prerequisites
@@ -55,6 +56,14 @@ $ cdk synth
 To add additional dependencies, for example other CDK libraries, just add
 them to your `setup.py` file and rerun the `pip install -r requirements.txt`
 command.
+
+
+## Running the application with a specific example
+
+```
+INSTRUCTIONS GO HERE
+```
+
 
 ## Useful commands
 
