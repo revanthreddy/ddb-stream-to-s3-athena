@@ -57,6 +57,14 @@ To add additional dependencies, for example other CDK libraries, just add
 them to your `setup.py` file and rerun the `pip install -r requirements.txt`
 command.
 
+### Important resources created by this stack
+
+- Amazon DynamoDB table
+- Amazon S3
+- AWS Glue resources 
+- AWS Lambda function
+
+![image](./images/architecture.png)
 
 ## Running the application with a specific example
 
